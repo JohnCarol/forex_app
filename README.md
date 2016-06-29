@@ -1,6 +1,8 @@
 # forex_app
 A forex calculator built using Angularjs, Codeigniter and MySQL
 
+Create a database called forex_DB and run the following:
+
 1. Create the action_codes TABLE
 
         CREATE TABLE `action_codes` (
@@ -68,3 +70,4 @@ A forex calculator built using Angularjs, Codeigniter and MySQL
 
 5. Create a folder in you htdocs folder called forex-app"
 6. Download and Unzip the contents of the forex-app.zip file into the forex-app directory
+7. Open forex-app\application\config\database.php and set your DB credentials as necessary
