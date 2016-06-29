@@ -67,4 +67,4 @@ A forex calculator built using Angularjs, Codeigniter and MySQL
       CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `v_curr_summary`  AS  select `currencies`.`surcharge` AS `surcharge`,`currencies`.`currency_name` AS `currency_name`,`currencies`.`curr_shrt` AS `curr_shrt`,`currencies`.`rate` AS `rate`,`currencies`.`discount` AS `discount`,`currencies`.`action_code_id` AS `action_code_id`,`currencies`.`last_updated` AS `last_updated`,`action_codes`.`action` AS `action` from (`currencies` left join `action_codes` on((`currencies`.`action_code_id` = `action_codes`.`action_id`))) order by `currencies`.`currency_name` ;
 
 5. Create a folder in you htdocs folder called forex-app"
-6. Insert the contents of this directory into the forex-app directory
+6. Download and Unzip the contents of the forex-app.zip file into the forex-app directory
