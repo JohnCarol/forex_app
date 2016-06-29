@@ -71,3 +71,4 @@ Create a database called forex_DB and run the following:
 5. Create a folder in you htdocs folder called forex-app"
 6. Download and Unzip the contents of the forex-app.zip file into the forex-app directory
 7. Open forex-app\application\config\database.php and set your DB credentials as necessary
+8. To test email functionality please edit application/controllers/currency_conv.php Line 105, 108, and 109 with you email credentials. 
