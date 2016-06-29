@@ -27,7 +27,7 @@ A forex calculator built using Angularjs, Codeigniter and MySQL
         `discount` int(11) NOT NULL DEFAULT '0',
         `last_updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
         `action_code_id` int(11) NOT NULL
-      ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+        ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
         INSERT INTO `currencies` (`id`, `currency_name`, `curr_shrt`, `rate`, `surcharge`, `discount`, `last_updated`, `action_code_id`) VALUES
         (1, 'US Dollar', 'USD', '0.0808279', '7.50', 0, '2016-06-21 09:26:58', 0),
